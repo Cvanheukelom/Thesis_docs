@@ -1,0 +1,101 @@
+scenario,crim_pos,crim_strat,crim_bounded_rat,crim_bound_rat_time,crim_max_diverge,pol_strat,pol_guarding,police_undercover,Police_entrance,criminal_detection_police,crim_loose_goal,units,P_multiple_at_station,crim_Mguard_percent,crim_Sguard_percent,init_call_delay,info_update_freq
+0,Schiedam Centrum,to_train,True,4,6,furthest,metro_platform,True,main,69,False,3,5,73,72,7,5
+1,Maashaven,to_train,False,6,5,largest,station_exit,True,main,41,False,2,5,64,96,1,10
+2,Maashaven,random,False,5,4,furthest,station_exit,False,main,58,True,8,5,69,98,8,7
+3,Beurs,random,False,3,4,largest,metro_platform,False,main,50,False,5,4,65,85,9,8
+4,Maashaven,random,False,6,5,largest,station_exit,True,side,66,True,5,3,90,70,4,5
+5,Gerdesiaweg,furthest,True,6,6,largest,station_exit,True,side,67,False,2,5,90,99,2,14
+6,Gerdesiaweg,furthest,False,6,5,furthest,station_exit,False,main,41,False,5,1,77,80,8,8
+7,Schiedam Centrum,furthest,True,5,3,furthest,station_exit,False,side,63,True,3,1,85,95,3,14
+8,Maashaven,random,False,5,6,largest,metro_platform,True,main,65,True,5,4,87,88,5,9
+9,Gerdesiaweg,to_train,False,4,4,random,station_exit,True,side,58,True,6,3,67,60,6,8
+10,Schiedam Centrum,furthest,False,5,5,largest,station_exit,True,side,68,False,7,2,60,69,6,7
+11,Gerdesiaweg,furthest,True,3,4,largest,station_exit,True,side,51,False,4,1,97,69,7,8
+12,Gerdesiaweg,to_train,False,4,3,random,metro_platform,True,main,69,False,8,4,85,74,7,5
+13,Gerdesiaweg,furthest,False,6,5,largest,metro_platform,False,side,69,False,2,5,76,63,7,5
+14,Beurs,to_train,True,6,6,furthest,station_exit,False,main,43,True,4,1,91,77,8,11
+15,Maashaven,furthest,True,6,6,random,metro_platform,True,main,59,False,5,4,79,92,7,15
+16,Beurs,random,False,5,6,random,metro_platform,True,side,41,False,5,2,84,83,6,7
+17,Beurs,to_train,False,4,4,largest,metro_platform,False,side,42,True,6,3,99,74,7,9
+18,Gerdesiaweg,furthest,True,3,5,furthest,metro_platform,False,main,63,True,6,3,75,81,2,9
+19,Maashaven,furthest,True,4,5,furthest,metro_platform,False,main,64,True,2,4,79,79,6,15
+20,Beurs,furthest,False,6,6,random,metro_platform,False,main,67,False,7,2,74,95,2,12
+21,Gerdesiaweg,random,True,5,3,largest,metro_platform,False,side,56,False,4,4,92,68,10,12
+22,Schiedam Centrum,random,True,4,4,largest,station_exit,False,main,40,False,5,1,81,100,6,10
+23,Schiedam Centrum,furthest,False,6,5,furthest,metro_platform,False,side,45,False,7,3,87,73,4,6
+24,Beurs,random,True,6,5,largest,station_exit,False,side,44,False,4,2,66,76,1,6
+25,Gerdesiaweg,random,True,5,3,random,metro_platform,False,side,56,False,7,3,70,97,3,5
+26,Schiedam Centrum,furthest,True,6,4,furthest,metro_platform,False,main,61,False,2,3,72,78,8,15
+27,Beurs,random,False,5,3,random,station_exit,False,main,60,False,6,2,82,78,10,6
+28,Beurs,to_train,False,4,5,random,metro_platform,True,side,70,False,6,4,73,95,5,12
+29,Gerdesiaweg,furthest,True,5,6,random,metro_platform,False,main,43,False,6,2,87,61,5,14
+30,Gerdesiaweg,to_train,False,6,4,largest,metro_platform,False,main,49,False,5,2,83,72,4,9
+31,Maashaven,furthest,True,4,3,largest,metro_platform,True,side,53,False,2,4,78,92,5,13
+32,Beurs,random,False,4,6,random,metro_platform,True,main,42,False,5,2,100,93,8,13
+33,Gerdesiaweg,furthest,True,4,5,furthest,metro_platform,True,side,52,True,7,4,84,81,9,9
+34,Schiedam Centrum,to_train,False,3,3,largest,metro_platform,True,main,68,True,3,1,81,91,6,13
+35,Schiedam Centrum,to_train,False,3,6,furthest,station_exit,False,main,65,True,8,2,68,80,1,14
+36,Gerdesiaweg,furthest,False,3,6,furthest,metro_platform,True,main,44,False,2,5,90,77,3,7
+37,Gerdesiaweg,to_train,True,5,3,furthest,station_exit,False,side,53,True,3,2,76,92,5,15
+38,Beurs,random,True,5,4,furthest,metro_platform,True,side,62,False,8,1,89,94,9,14
+39,Schiedam Centrum,random,False,5,5,furthest,station_exit,True,main,45,True,7,5,63,66,6,14
+40,Gerdesiaweg,random,False,3,5,largest,station_exit,True,main,40,True,6,1,61,96,6,5
+41,Schiedam Centrum,random,False,5,3,furthest,station_exit,True,side,51,False,5,3,71,71,3,13
+42,Beurs,to_train,False,3,3,furthest,station_exit,False,side,59,True,5,3,91,84,3,10
+43,Gerdesiaweg,furthest,True,6,4,largest,metro_platform,False,side,59,True,4,5,92,98,7,6
+44,Beurs,random,True,5,5,random,station_exit,False,main,47,True,7,3,74,99,7,10
+45,Beurs,random,False,3,6,largest,metro_platform,True,main,57,True,4,1,99,82,3,10
+46,Maashaven,to_train,False,4,3,furthest,metro_platform,True,side,40,False,2,1,65,61,9,9
+47,Schiedam Centrum,random,False,5,4,random,station_exit,False,side,68,False,7,1,72,83,5,12
+48,Maashaven,furthest,False,4,3,furthest,station_exit,True,main,49,True,8,2,77,89,5,5
+49,Schiedam Centrum,to_train,True,4,4,random,station_exit,True,main,54,False,8,5,78,68,7,11
+50,Schiedam Centrum,to_train,True,6,4,largest,station_exit,False,side,53,True,7,3,94,67,6,8
+51,Beurs,furthest,True,4,4,furthest,station_exit,False,main,66,False,5,2,94,69,1,9
+52,Maashaven,random,False,5,3,random,station_exit,True,main,54,False,8,2,100,60,3,11
+53,Gerdesiaweg,random,False,6,6,largest,station_exit,True,main,70,True,5,5,63,76,5,10
+54,Beurs,random,True,3,3,random,station_exit,False,main,62,False,7,5,98,98,10,9
+55,Schiedam Centrum,random,True,6,3,random,station_exit,False,main,48,True,4,3,89,89,4,15
+56,Gerdesiaweg,to_train,False,3,4,random,metro_platform,False,side,51,True,6,3,100,86,4,10
+57,Maashaven,random,False,3,6,largest,metro_platform,False,side,57,True,6,5,70,74,1,7
+58,Maashaven,furthest,False,4,4,random,station_exit,True,side,50,False,8,2,79,62,3,7
+59,Schiedam Centrum,random,True,5,6,furthest,station_exit,True,side,55,True,4,3,81,84,1,10
+60,Gerdesiaweg,to_train,False,3,5,largest,station_exit,False,side,42,True,3,5,95,70,10,15
+61,Maashaven,furthest,True,5,4,furthest,metro_platform,True,main,46,False,8,1,88,83,4,7
+62,Maashaven,to_train,False,5,3,largest,station_exit,True,main,68,True,4,4,60,85,1,14
+63,Maashaven,random,False,6,6,random,metro_platform,True,main,52,True,2,4,74,67,10,15
+64,Schiedam Centrum,furthest,False,3,6,furthest,station_exit,False,main,47,False,4,4,69,82,8,8
+65,Maashaven,to_train,True,6,5,largest,metro_platform,False,main,44,True,2,3,61,100,10,11
+66,Gerdesiaweg,furthest,False,4,3,furthest,station_exit,True,side,43,True,3,1,75,68,1,11
+67,Beurs,furthest,False,4,4,largest,metro_platform,False,main,61,True,7,5,80,93,10,8
+68,Beurs,random,True,3,4,largest,station_exit,True,main,61,False,8,2,64,65,8,12
+69,Schiedam Centrum,to_train,True,3,6,largest,metro_platform,True,main,50,True,5,3,95,75,2,13
+70,Beurs,to_train,False,3,5,furthest,metro_platform,False,side,46,True,8,1,66,72,4,13
+71,Maashaven,random,False,3,5,random,metro_platform,True,side,49,False,5,1,63,75,4,6
+72,Schiedam Centrum,random,False,4,6,random,station_exit,False,main,46,False,8,4,82,63,9,12
+73,Maashaven,random,True,6,6,random,metro_platform,False,side,67,False,3,2,88,94,9,8
+74,Schiedam Centrum,furthest,True,4,3,random,metro_platform,True,main,57,False,3,4,93,64,2,8
+75,Maashaven,to_train,True,6,6,random,metro_platform,True,main,58,True,4,4,93,88,4,14
+76,Gerdesiaweg,furthest,True,5,5,random,metro_platform,False,main,60,False,6,3,86,89,9,9
+77,Gerdesiaweg,furthest,True,5,4,furthest,station_exit,False,main,48,True,3,4,71,65,8,13
+78,Schiedam Centrum,to_train,True,3,3,random,metro_platform,True,side,64,True,8,3,97,90,2,7
+79,Beurs,to_train,True,5,4,random,metro_platform,False,main,64,True,4,5,88,64,1,6
+80,Gerdesiaweg,random,True,3,4,largest,metro_platform,True,side,60,True,3,2,62,61,10,14
+81,Beurs,furthest,True,4,5,furthest,metro_platform,True,side,56,True,2,5,70,76,9,13
+82,Beurs,furthest,False,4,6,furthest,metro_platform,False,side,47,True,6,2,98,66,9,10
+83,Schiedam Centrum,to_train,True,6,6,largest,station_exit,True,side,41,False,3,5,62,71,6,11
+84,Maashaven,random,True,6,3,random,station_exit,False,side,66,False,6,1,65,62,9,5
+85,Beurs,random,True,5,3,furthest,metro_platform,False,side,63,True,3,3,72,81,7,7
+86,Schiedam Centrum,furthest,False,6,5,largest,station_exit,True,side,45,False,4,2,96,73,2,13
+87,Beurs,to_train,False,4,5,random,station_exit,False,main,55,False,3,1,86,64,2,12
+88,Schiedam Centrum,to_train,True,3,6,random,station_exit,True,side,46,True,4,4,83,91,10,15
+89,Maashaven,to_train,True,3,4,random,station_exit,False,main,62,True,8,4,80,65,2,6
+90,Gerdesiaweg,to_train,True,6,3,furthest,station_exit,False,side,52,True,7,4,68,86,8,12
+91,Gerdesiaweg,to_train,True,3,4,largest,metro_platform,True,side,70,True,2,5,98,87,2,5
+92,Schiedam Centrum,to_train,True,5,3,furthest,station_exit,False,side,55,True,6,3,94,90,1,11
+93,Beurs,to_train,True,3,3,random,station_exit,False,side,63,False,6,1,93,97,5,10
+94,Schiedam Centrum,random,False,4,3,largest,metro_platform,True,main,54,False,7,5,67,86,4,12
+95,Maashaven,furthest,False,4,5,largest,station_exit,False,main,50,False,2,1,84,79,3,15
+96,Maashaven,furthest,False,4,5,random,metro_platform,True,side,48,True,6,5,76,99,5,6
+97,Maashaven,furthest,True,5,6,random,station_exit,True,side,56,False,8,4,67,89,10,6
+98,Beurs,random,True,6,5,furthest,metro_platform,True,side,65,True,3,1,96,87,8,11
+99,Maashaven,to_train,False,3,4,furthest,station_exit,True,side,60,True,2,2,60,78,3,12
